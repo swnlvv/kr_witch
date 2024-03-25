@@ -1,4 +1,4 @@
-##поменять на необходимую директорию
+##ПОМЕНЯТЬ НА НЕОБХОДИМУЮ ДИРЕКТОРИЮ
 
 ##import os
 ##os.chdir("c:\\Users\\Лия\\Documents\\it\\pythonuni\\kr\\witch")
