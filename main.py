@@ -1,3 +1,7 @@
+##поменять на необходимую директорию
+
+##import os
+##os.chdir("c:\\Users\\Лия\\Documents\\it\\pythonuni\\kr\\witch")
 ## считывание инпута
 
 with open("input2.txt", "r") as file:
