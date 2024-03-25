@@ -4,7 +4,7 @@
 ##os.chdir("c:\\Users\\Лия\\Documents\\it\\pythonuni\\kr\\witch")
 ## считывание инпута
 
-with open("input2.txt", "r") as file:
+with open("input1.txt", "r") as file:
     lines = file.readlines()
 
 ## создание листа из строк из инпута
