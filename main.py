@@ -4,16 +4,14 @@
 ##os.chdir("c:\\Users\\Лия\\Documents\\it\\pythonuni\\kr\\witch")
 ## считывание инпута
 
-with open("input1.txt", "r") as file:
+with open("input2.txt", "r") as file:
     lines = file.readlines()
 
-## создание листа из строк из инпута
+## создание листа из строк из инпута, удаление строковых разделителей
 witch=[]
 for line in lines:
-    witch.append(line)
+    witch.append(line.rstrip("\n"))
 
-## удаление строковых разделителей
-witch=[line.rstrip() for line in witch]
 ## перевод в сет и обратно для удаления повторений, подсчет длины сета
 witch=list(set(witch))
 l=len(set(witch))
